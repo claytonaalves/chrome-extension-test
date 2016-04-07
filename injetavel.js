@@ -1,0 +1,1 @@
+fazAlgumaCoisa('executado pela extensão');

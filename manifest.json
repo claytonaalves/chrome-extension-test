@@ -1,0 +1,12 @@
+{
+  "name": "Extensão de teste",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://10.1.1.100/*"],
+      "js": ["myscript.js"]
+    }
+  ],
+  "web_accessible_resources": ["injetavel.js"]
+}
